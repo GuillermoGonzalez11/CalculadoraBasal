@@ -11,7 +11,7 @@ let miVariable = "Programando Paraguay"
 //Crea una variable verdadero y asígnale un valor de tipo boolean que represente una afirmación verdadera.
 let variable = true
 //Crea una variable falso y asígnale un valor de tipo boolean que represente una afirmación falsa.
-let falso= false
+let falso = false
 //Crea una variable nulo y asígnale un valor de tipo null.
 let vacío= null
 //Crea una variable indefinido y asígnale un valor de tipo undefined.
@@ -41,10 +41,10 @@ console.log(indefinido,typeof indefinido)
 let numero = parseInt (prompt("Ingrese un numero"))
 if(numero > 10) {
 console.log("Es mayor")
-} else if(numero > 10) {
+} else if(numero < 10) {
  console.log("Es menor")
 } else if (numero === 10)
-console.log(numero,typeof numero)
+console.log("Es igual a 10")
 
 //Escribe un programa que solicite al usuario que ingrese un número y verifique si es par o impar.
 let num = 8
@@ -73,7 +73,18 @@ console.log("Es mayor de edad")
 console.log(numero,typeof numero)
 
 //Escribe un programa que solicite al usuario que ingrese un número del 1 al 7 y muestre un mensaje en la consola indicando el día de la semana correspondiente.
+let DIAS =[
+    "domingo",
+    "lunes",
+    "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sabado",
 
+]
+let input = 2 
+console.log(DIAS[input-1])
 
 
 
@@ -133,9 +144,15 @@ for (let i = 0; i<tamaño; i++){
 //Bucles
 
 //Escribe un bucle for que imprima en la consola los números del 1 al 10.
-
+for(let i = 1; i <= 10; i++){
+    console.log(i)
+}
 //Escribe un bucle while que imprima en la consola los números del 1 al 5.
-
+let i = 1;
+while (i < 6) {
+    console.log(i)
+    i++;
+}
 //Crea un vector con los números del 1 al 5. Escribe un bucle for que imprima en la consola cada uno de los elementos del vector.
 
 //Crea una función que reciba un número n y devuelva la suma de todos los números del 1 al n. Utiliza un bucle for para calcular la suma y muestra el resultado en la consola.
