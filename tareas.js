@@ -11,7 +11,7 @@ let miVariable = "Programando Paraguay"
 //Crea una variable verdadero y asígnale un valor de tipo boolean que represente una afirmación verdadera.
 let variable = true
 //Crea una variable falso y asígnale un valor de tipo boolean que represente una afirmación falsa.
-let falso = false
+
 //Crea una variable nulo y asígnale un valor de tipo null.
 let vacío= null
 //Crea una variable indefinido y asígnale un valor de tipo undefined.
@@ -23,11 +23,8 @@ console.log(a,typeof a)
 //Imprime en la consola el valor de la variable texto y el tipo de dato que almacena.
 console.log(miVariable,typeof miVariable)
 //Imprime en la consola el valor de la variable verdadero y el tipo de dato que almacena.
-console.log(falso,typeof falso)
 //Imprime en la consola el valor de la variable falso y el tipo de dato que almacena.
-const falso = false;
-console.log(fals); // Imprime "false" en la consola
-console.log(typeof falso); // Imprime "boolean" en la consola
+
 
 //Imprime en la consola el valor de la variable nulo y el tipo de dato que almacena.
 console.log(vacío, typeof vacío)
